@@ -125,14 +125,13 @@ header .textos-header {
 
 .galeria-reto {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .imagen-reto{
     width: 100%;
     margin: 10px;
-    float: inline-end;
     cursor: pointer;
     flex-direction: column;
 }
@@ -144,11 +143,31 @@ header .textos-header {
     display: block;
 }
 
+.hover-galeria{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    transform: scale(0);
+    background: hsla(273,91%,27%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 300;
+    box-shadow: 0 0 6px 0px rgba(0, 0, 0, .5);
+}
+
 .hover-galeria p{
     text-align: center;
     font-weight: 600;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
+
+.imagen-reto:hover .hover-galeria{
+    transform: scale(1);
+}
+
 
 /* Pie de página */
 
@@ -158,6 +177,10 @@ header .textos-header {
 
 .content-foo {
     text-align: center;
+    width: 100%;
+    margin: 10px;
+    cursor: pointer;
+    flex-direction: column;
 }
 
 .titulo-final{

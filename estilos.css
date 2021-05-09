@@ -195,3 +195,12 @@ header .textos-header {
     text-align: center;
     font-weight: 600;
 }
+
+.servicio-cont {
+   display: flex;
+   justify-content: space-around;
+}
+
+.servicio-ind > img{
+    width: 20%;
+}

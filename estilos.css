@@ -129,14 +129,21 @@ header .textos-header {
     flex-wrap: wrap;
 }
 
-.imagen-reto{
+.imagen-retos{
     width: 100%;
     margin: 10px;
     cursor: pointer;
     flex-direction: column;
 }
 
-.imagen-reto > img{
+.imagen-retos-derecha{
+    width: 50%;
+    margin: 10px;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.imagen-retos > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -164,7 +171,7 @@ header .textos-header {
     font-weight: 600;
 }
 
-.imagen-reto:hover .hover-galeria{
+.imagen-retos:hover .hover-galeria{
     transform: scale(1);
 }
 

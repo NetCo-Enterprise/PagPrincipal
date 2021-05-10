@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Imagenes/logoredes.png" type="image/x-icon">
-    <link rel="stylesheet" href="estilos-retos.css">
+    <link rel="stylesheet" href="css/estilos-retos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
     <title>NetCo Company | Retos</title>
@@ -26,18 +26,37 @@
 </header>
 
 <main>
-    <section class="contenedor-sobre-nosotros">
-        <h2 class="titulo">¿Como hemos relalizado el reto 1?</h2>
-        <h2 class="titulo">La empresa de Barcelona "Los Laures" han pedido de nuestros servicios en creacion de redes. El problema es crear una red, teneiendo que entregar un cuadro con el rango de las IPs que debemos usar. </h2>
-        <h3 class="subtitulo"> La empresa nos ha asignado una dirección IP 10.0.0.0/10, teniendo 300 secciones dentro de su edificio con 500-600 usuarios y un departamento tiene 1000 de máximo</h3>
+    <section class="contenedor sobre-nosotros">
+        <h2 class="titulo">¿Como hemos realizado el reto 1?</h2>
+        <h2 class="subtitulo1">La empresa de Barcelona "Los Laures" han pedido de nuestros servicios en creacion de redes. El problema es crear una red, teniendo que entregar un cuadro con el rango de las IPs.<br></h2>
+        <h3 class="subtitulo2">La empresa nos ha asignado una dirección IP 10.0.0.0/10, teniendo 300 secciones dentro de su edificio con 500-600 usuarios y un departamento tiene 1000 de máximo</h3>
+        
         <div class="contenedor-sobre-nosotros">
             <div class="contenido-textos">
-            <h3><span>1</span>Clase, máscara, y número de bits de subred</h3>
-            <p>Primero vemos el enunciado</p>
-            <h3><span>2</span>¿Como trabajamos?</h3>
-            <p>Trabajamos mediante "retos" que nuestra profesora nos brinda todas las semanas, es decir, trabajamos con retos semanales, desde estructuracion de un local, hasta presentaciones en grupo hacia otros compañeros sobre nuestros conocimientos.</p>
-            <h3><span>3</span>¿Como trabajamos?</h3>
-            <p>Trabajamos mediante "retos" que nuestra profesora nos brinda todas las semanas, es decir, trabajamos con retos semanales, desde es
+            <h3><span>1</span>Identificamos la clase, la máscara, y número de bits de subred</h3>
+            <p>
+                <b>Paso 1:</b> Submascara: 255.192.0.0 (con los 10 bits que nos indica la IP)<br><br>
+                <b>Paso 2:</b> 2^n - 2 >= 300; n = 9 bits de subred<br><br>
+                <b>Paso 3:</b> Sacamos la nueva submascara: 255.255.224.0 (añadiendo los 9 bits de subred a los 10 que ya nos daban) Entonces la nueva IP quedaria de la siguiente forma: 10.0.0.0 <b>/19</b>            
+            </p>
+            <h3><span>2</span>Ahora realizamos el calculo de subredes que nos han pedido</h3>
+            <p>
+                Ahora mediante el <b>calculo en binario</b>, hemos realizado la siguiente tabla que nos servirá para configurar el router y las 300 subredes que nos han pedido, siendo el resultado la <b>siguiente imagen:</b><br><br>
+                <img src="Imagenesreto/redesparte1.png"> 
+                <p>Elegimos las dos primeras subredes y la ultima para que nos sea mas facil a la hora de configurar</p><img src="Imagenesreto/redesparte2.png">
+            </p>
+            <h3><span>3</span>Configuramos la primera subred y mas tarde las demás</h3>
+            <p>En la siguiente imagen se muestra como configuramos la Fa 0/1 del router con la ip correspondiente y su máscara:<br><br>
+                <img src="Imagenesreto/confrouter.png"> <br>
+                Despues configuraremos cada uno de los PCs, en este caso pondremos el PC0 de ejemplo: <br><br>
+                <img src="Imagenesreto/pcconfig.png"> <br>
+                Una vez completa la configuracion de los PCs, lo comprobamos haciendo un ping entre el PC0 y el PC1 ya configurados <br><br>
+                <img src="Imagenesreto/pingpc.png">
+            </p>
         </div>
         </div>
     </section>
+    <footer>
+        <h2 class="titulo-final">&copy; Sergio Fernández Design | NetCo Company</h2>
+    </footer>
+    </html>

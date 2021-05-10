@@ -173,10 +173,14 @@ header .textos-header {
 
 .contenedor-footer {
     background-color: rgb(204, 203, 203);
+    text-align: center;
+    margin: 2px;
+    justify-content: center;
+    display: flex;
 }
 
 .content-foo {
-    margin: 10px;
+    margin: 7px;
     text-align: center;
 }
 

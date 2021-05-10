@@ -86,6 +86,12 @@ header .textos-header {
     justify-content: space-evenly;
 }
 
+.subtitulo > h3{
+    text-align: center;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    font-weight: 500;
+}
+
 .imagen-sobre-nosotros {
     width: 48%;
 }

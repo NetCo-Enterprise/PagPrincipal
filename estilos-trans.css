@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #f12711;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(120, 92%, 53%, 0.212), #24da00a2), url(../Imagenestrans/portadatrans.png);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(120, 92%, 53%, 0.26), #24da00ab), url(../Imagenestrans/portadatrans.png); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    background-attachment: fixed;
+
+
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: 600;
+    font-size: 70px;
+}
+.textos-header h1{
+    font-size: 80px;
+    color:#fff;
+}
+
+.textos-header h2{
+    font-size: 50px;
+    font-weight: 300;
+    color:#fff;
+}
+
+/* sobre nosotros */
+
+.contenedor-sobre-nosotros {
+    display: flex;
+}
+
+h2.subtitulo1{
+    color: #000000;
+    font-size: 27px;
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 35px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.788);
+    border-radius: 2%;
+}
+
+h3.subtitulo2{
+    color: #b4902c;
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 100%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.contenido-textos h3 span{
+    background: #24da00ab;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 10px;
+}
+
+.contenido-textos p{
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.contenido-parrafo1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.titulo-final{
+    background-color: rgb(186, 187, 186);
+    text-align: center;
+    font-weight: 600;
+}
+
+
+

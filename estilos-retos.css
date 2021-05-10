@@ -81,7 +81,7 @@ header .textos-header {
 
 /* sobre nosotros */
 
-.explicacion {
+.contenido-sobre-nosotros {
     display: flex;
     justify-content: space-evenly;
 }

@@ -137,6 +137,25 @@ h3.subtitulo2{
     font-size: 20px;
 }
 
+.contenido-parrafo1 p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    text-align: justify;
+}
+
+.contenido-parrafo2 > video{
+    width: 1000px;
+    height: 600px;
+}
+
+.contenido-parrafo2 p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    text-align: justify;
+}
+
 .titulo-final{
     background-color: rgb(186, 187, 186);
     text-align: center;

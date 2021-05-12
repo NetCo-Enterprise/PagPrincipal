@@ -27,17 +27,17 @@
 <main>
     <section class="contenedor sobre-nosotros">
         <h3 class="subtitulo1">La empresa de Barcelona "Los Laures" nos han pedido nuestros servicios para la creación de subredes, debido a que su equipo de técnicos informáticos no tiene conocimientos suficientes sobre este tema.<br></h3>
-        <h3 class="subtitulo2">Nos han asignado la dirección IP 10.0.0.0/10, teniendo 300 secciones a las que deben dar cobertura, con 500-600 usuarios cada una, un departamento tiene 1000 usuarios de máximo</h3>
+        <h3 class="subtitulo2">Nos han asignado la dirección IP 10.0.0.0/10, teniendo 300 secciones a las que deben dar cobertura, con 500-600 usuarios cada una, un departamento tiene 1000 usuarios de máximo.</h3>
         
         <div class="contenedor-sobre-nosotros">
             <div class="contenido-textos">
-            <h3><span>1</span>Identificamos la clase, la máscara, y número de bits de subred</h3>
+            <h3><span>1</span>Identificar la clase, la máscara, y número de bits de subred</h3>
             <p>
                 <b>Paso 1:</b> Submascara: 255.192.0.0 (con los 10 bits que nos indica la IP)<br><br>
                 <b>Paso 2:</b> 2^n - 2 >= 300; n = 9 bits de subred<br><br>
-                <b>Paso 3:</b> Sacamos la nueva submascara: 255.255.224.0 (añadiendo los 9 bits de subred a los 10 que ya nos daban) Entonces la nueva IP quedaria de la siguiente forma: 10.0.0.0 <b>/19</b>            
+                <b>Paso 3:</b> Nueva submascara: 255.255.224.0 (añadiendo los 9 bits de subred a los 10 que ya nos daban) Ahora la IP quedaria de esta forma: 10.0.0.0 <b>/19</b>            
             </p>
-            <h3><span>2</span>Ahora realizamos el calculo de subredes que nos han pedido</h3>
+            <h3><span>2</span>Cálculo de subredes</h3>
             <p>
                 Ahora mediante el <b>calculo en binario</b>, hemos realizado la siguiente tabla que nos servirá para configurar el router y las 300 subredes que nos han pedido, siendo el resultado la <b>siguiente imagen:</b><br><br>
                 <img src="Imagenesreto/redesparte1.png"> 
@@ -55,6 +55,6 @@
         </div>
     </section>
     <footer>
-        <h2 class="titulo-final">&copy; Sergio Fernández Design | NetCo Company</h2>
+        <h2 class="titulo-final">&copy; Sergio Fernández Design | NetCo</h2>
     </footer>
     </html>

@@ -28,11 +28,11 @@ body{
 header{
     width: 100%;
     height: 600px;
-    background: #ce4935;  
+    background: #e2d8d7;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(30, 2%, 22%, 0.397), #5a5555), url(../PagPrincipal-main/Imagenesreto/portadaretos.jpg);  
+    background: -webkit-linear-gradient(to right, hsla(41, 92%, 53%, 0.397), #e7e1e0), url(../imagenesreto/portadaretos.jpg);  
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(60, 2%, 12%, 0.397), #ffffff), url(../PagPrincipal-main/Imagenesreto/portadaretos.jpg); 
+    background: linear-gradient(to right, hsla(41, 92%, 53%, 0.397), #000000), url(../imagenesreto/portadaretos.jpg); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
     background-attachment: fixed;

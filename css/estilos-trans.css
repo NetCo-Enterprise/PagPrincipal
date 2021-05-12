@@ -90,7 +90,15 @@ h2.subtitulo1{
     text-align: justify;
     margin-bottom: 35px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.788);
-    border-radius: 2%;
+    background: hsla(120, 77%, 31%, 0.541);
+   
+    text-align: center;
+    text-align: justify;
+}
+
+h2.titulo {
+    background: hsl(120, 51%, 54%);
+    box-shadow: 0 0 15px 0 rgb(0, 0, 0);
 }
 
 h3.subtitulo2{
@@ -114,7 +122,7 @@ h3.subtitulo2{
 }
 
 .contenido-textos h3 span{
-    background: ##04B404;
+    background: #24da00ab;
     color: rgb(0, 0, 0);
     border-radius: 50%;
     display: inline-block;
@@ -155,7 +163,6 @@ h3.subtitulo2{
     text-align: left;
     text-align: justify;
 }
-
 .titulo-final{
     background-color: rgb(186, 187, 186);
     text-align: center;

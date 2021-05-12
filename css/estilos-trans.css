@@ -114,8 +114,8 @@ h3.subtitulo2{
 }
 
 .contenido-textos h3 span{
-    background: #24da00ab;
-    color: rgb(0, 0, 0);
+    background: #000000;
+    color: #e7e1e0);
     border-radius: 50%;
     display: inline-block;
     text-align: center;

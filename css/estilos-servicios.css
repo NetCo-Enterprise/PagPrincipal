@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #153add;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #e2d8d7;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(236, 92%, 53%, 0.397), #e7e1e0), url(../imagenes-servicios/portadatransser.jpg);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(236, 92%, 53%, 0.397), #000000), url(../imagenes-servicios/portadatransser.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    background-attachment: fixed;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 80px;
+    color:#fff;
+}
+
+.textos-header h2{
+    font-size: 50px;
+    font-weight: 300;
+    color:#fff;
+}
+
+/* sobre nosotros */
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    text-align: space-around;
+
+}
+
+.contenedor-sobre-nosotros .contenido-textos2 {
+    display: block;
+    text-align: space-around;
+
+}
+
+.imagen-sobre-nosotros {
+    width: 48%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* galeria */
+
+.retos {
+    background: #f2f2f2
+}
+
+.galeria-reto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagen-retos{
+    width: 100%;
+    margin: 10px;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.imagen-retos > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    transform: scale(0);
+    background: hsla(273,91%,27%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 300;
+    box-shadow: 0 0 6px 0px rgba(0, 0, 0, .5);
+}
+
+.hover-galeria p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.imagen-retos:hover > .hover-galeria{
+    transform: scale(1);
+}
+
+
+/* Pie de página */
+
+.contenedor-footer {
+    background-color: rgb(204, 203, 203);
+    text-align: center;
+    margin: 2px;
+    justify-content: center;
+    display: flex;
+}
+
+.content-foo {
+    margin: 7px;
+    text-align: center;
+}
+
+.titulo-final{
+    background-color: rgb(186, 187, 186);
+    text-align: center;
+    font-weight: 600;
+}
+
+.servicio-ind > img{
+    float: right;
+   margin: 0 0 15 15;
+   width: 16%;
+}

@@ -81,9 +81,21 @@
                 solamente nombraremos unos cuantos, al menos los mas importantes como pueden ser:<br><br>
 
                 - Multiplexación de conexiones entre procesos y/o aplicaciones<br>
-                - 
-                
+                -  Fragmenta los bloques de datos para viajar sobre la capa que se utilice<br>
+                -  Detecta errores de transmisión en los segmentos<br>
+                -  Entrega fiable de los segmentos<br>
+                -  Elimina los segmentos que llegan duplicados<br>
+                -  Controla el flujo y de congestiones para adaptar la velocidad.<br><br>
 
+                Estos son los principales servicios que ofrece este protocolo y es por eso por que destaca
+                tanto y tiene tanta utilidad, pero no todo es bueno, ya que tiene tambien sus consecuencias
+                que se hablan en el siguiente punto.<br><br>
+                    
+                Consecuencias del protocolo:<br><br>
+                Todos los servicios hablados anteriormente como fiabilidad y control de errores en segmentos duplicados son buenos para las redes, sin embargo,
+                esta fiabilidad y la posibilidad de control de flujo y de congestiones tienen un elevado coste a nivel de eficiencia, asi que, comparado con UDP
+                TCP es un protocolo mucho mas lento. TCP sigue siendo buena ipcion para apliaciones que necesiten fiabilidad en la entrega, pero no para aquellas que
+                necesiten comunicarse a tiempo real.
 
                 </p>
 

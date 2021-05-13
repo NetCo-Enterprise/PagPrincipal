@@ -28,11 +28,11 @@ body{
 header{
     width: 100%;
     height: 600px;
-    background: #f12711;  
+    background: #048af8;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(41, 92%, 53%, 0.397), #f12711), url(../Imagenes/portada.jpg);  
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.397), #5c0dc4), url(../Imagenes/portada.jpg);  
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(41, 92%, 53%, 0.397), #f12711), url(../Imagenes/portada.jpg); 
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.397), #5c0dc4), url(../Imagenes/portada.jpg); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
     background-attachment: fixed;

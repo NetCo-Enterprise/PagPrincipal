@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #dda815;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #f12711;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(41, 92%, 53%, 0.377), #5f11f1), url(../Imagenescontactos/contactos.jpg);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(41, 92%, 53%, 0.397), #5f11f1), url(../Imagenescontactos/contactos.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    background-attachment: fixed;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 80px;
+    color:#fff;
+}
+
+.textos-header h2{
+    font-size: 50px;
+    font-weight: 300;
+    color:#fff;
+}
+
+/* CUESTIONARIO */
+
+.iframe{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.formulario{
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* Pie de página */
+
+.contenedor-footer {
+    background-color: rgb(212, 211, 211);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+
+.contenedor-footer p{
+    text-align: center;
+    margin: 7px;
+}
+
+.titulo-final{
+    background-color: rgb(186, 187, 186);
+    text-align: center;
+    font-weight: 600;
+}
+
+.servicio-ind > img{
+    float: right;
+   margin: 0 0 15 15;
+   width: 20%;
+}

@@ -100,18 +100,15 @@
                 modelo TCP/IP. Al igual que antes, hablaremos de los servicios, sus características principales y sus consecuencias, sin olvidar las aplicaciones en las que se 
                 utiliza este protocolo.<br><br>
                    
-                Para empezar hay que recordar que en este protocolo UDP, la PDU recibe el nombre de <b>datagrama</b> en lugar de segmento.<br>
-                Una vez recordado eso, empezamos hablando de sus servicios, que como he dicho, son mucho menores a los servicios del protocolo TCP/IP:<br><br>
+                Para empezar hay que recordar que en este protocolo UDP, la PDU recibe el nombre de <b>datagrama</b> en lugar de segmento.<br><br>
+               
                     
                 <span><b>1</b></span> Servicios que ofrece el protocolo<br><br>
                 
                 - Multiplexación de envíos entre procesos y/o aplicaciones por encima de un mismo enlace de red.<br>
                 - Detección de errores en la transmisión entre extremos para cada datagrama.<br><br>
                 
-                UDP solamente tiene dos servicios a diferencia del TCP, pero esto no lo hace menos fiable o que sea menos utilizado. Ahora hablaremos de las características
-                que ofrece este protocolo<br><br>
-                
-                <span><b>2</b></span> Caracteristicas generales del protocolo:<br><br>
+                <span><b>2</b></span> Características generales del protocolo:<br><br>
                     
                 - Cada datagrama se envia de forma independiente al resto<br>
                 - UDP no ofrece ningun mecanismo que garantice al remitente que los datagramas han llegado a su destino<br>
@@ -121,10 +118,10 @@
                     
                 <span><b>3</b></span> Consecuencias del protocolo:<br><br>
                 
-                Debido a su extrema sencillez, este protocolo permite elevadas velocidades de transferencia, pero sin garantia. Es muy util para apliaciones que necesitan funcionar
+                Debido a su extrema sencillez, este protocolo permite elevadas velocidades de transferencia, pero sin garantia. Es muy útil para aplicaciones que necesitan funcionar
                 a tiempo real, siempre y cuando se puedan eliminar esos datagramas que no lleguen o no lo hagan a tiempo.<br><br>
                     
-                Y otra consecuencia que dispone es que no requiere confirmacion de la recepcion del datagrama por parte del destinatario, permite broadcast y multicast.<br><br>
+                Otra consecuencia es que no requiere confirmación de la recepción del datagrama por parte del destinatario, permite broadcast y multicast.<br><br>
                 
                 <span><b>4</b></span> Aplicaciones que utiliza UDP<br><br>
                     

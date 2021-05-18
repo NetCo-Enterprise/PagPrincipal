@@ -100,16 +100,16 @@ header .textos-header {
 /* Pie de página */
 
 .contenedor-footer {
-    background-color: rgb(212, 211, 211);
+    background-color: rgb(204, 203, 203);
     text-align: center;
-    display: flex;
-    justify-content: center;
     margin: 2px;
+    justify-content: center;
+    display: flex;
 }
 
-.contenedor-footer p{
-    text-align: center;
+.content-foo {
     margin: 7px;
+    text-align: center;
 }
 
 .titulo-final{
@@ -121,5 +121,5 @@ header .textos-header {
 .servicio-ind > img{
     float: right;
    margin: 0 0 15 15;
-   width: 20%;
+   width: 16%;
 }

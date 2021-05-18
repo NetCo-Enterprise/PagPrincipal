@@ -21,9 +21,9 @@ header{
     height:;
     background: #f12711;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(120, 92%, 53%, 0.212), #24da00a2), url(../Imagenestrans/portadatrans.jpg);  
+    background: -webkit-linear-gradient(to right, hsla(120, 92%, 53%, 0.212), #24da00a2), url(../Imagenestrans/portadatrans1.jpg);  
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(120, 92%, 53%, 0.26), #24da00ab), url(../Imagenestrans/portadatrans.jpg); 
+    background: linear-gradient(to right, hsla(120, 92%, 53%, 0.26), #24da00ab), url(../Imagenestrans/portadatrans1.jpg); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
     background-attachment: fixed;

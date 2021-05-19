@@ -117,6 +117,86 @@ header .textos-header {
     text-align: justify;
 }
 
+/* TITULOS */
+
+.contenedor-sobre-nosotros {
+    display: flex;
+}
+
+h2.subtitulo1{
+    color: #000000;
+    font-size: 27px;
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 35px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.788);
+    background: hsla(120, 77%, 31%, 0.541);
+   
+    text-align: center;
+    text-align: justify;
+}
+
+h2.titulo {
+    background: hsl(120, 51%, 54%);
+    box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+h3.subtitulo2{
+    color: #b4902c;
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+/* CONTENIDO DE LOS PARRAFOS 1*/
+
+.sobre-nosotros .contenido-textos{
+    width: 100%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.contenido-textos h3 span{
+    background: #24da00ab;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 10px;
+}
+
+.contenido-textos p{
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+/* CONTENIDO DEL PARRAFO 1*/
+
+.contenido-parrafo1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contenido-parrafo1 p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    text-align: justify;
+}
+
+
 /* galeria */
 
 .retos {

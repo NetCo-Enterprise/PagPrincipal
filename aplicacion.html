@@ -1,1 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/logoredes.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos-trans.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <title>NetCo | Reto 3</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html">Retos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contactos.html">Contactos</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Reto 3</h1>
+        </section>
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.22,-3.45 C45.99,246.20 197.23,20.22 503.10,22.20 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+</header>
 
+<main>
+    <section class="contenedor sobre-nosotros">
+        <h2 class="titulo">Capa de transporte</h2><br>
+        <h2 class="subtitulo1">La capa de transporte se define como una capa que proporciona un servicio de comunicación directo 
+                                y eficiente entre las apliaciones que se ejecutan en diferentes máquinas.<br></h2>
+        
+        <div class="contenedor-sobre-nosotros">
+            <div class="contenido-textos">
+
+           <h3> Hay varias cosas importantes que debemos de saber antes de seguir avanzando y que aprenderemos en esta guia, lo más importante son los protocolos UDP y TCP, los principales puertos de la capa, sus principales aplicaciones y características. </h3><br>
+          
+           <div class="contenido-parrafo1">
+            <h3><span>1</span>Puertos de la capa de transporte</h3>
+                <p>Tanto <b>UDP</b> como <b>TCP</b> utilizan puertos de 16 bits para identificar las aplicaciones o procesos en la comunicación entre host. 
+                    El programador de aplicaciones gestiona y decide a qué puertos deben conectarse los clientes. 
+                    Estas personas podrán elegir entre 0 y 65535 que es el rango de esos 16 bits.<br><br>
+
+                    Sin embargo, la <b>IANA (Autoridad de Control de Número de Puertos)</b> hace las siguientes reservas:<br><br>
+                    <b>1.</b> Los primeros 1024 puertos son dedicados a los puertos de sistema y se asocian a aplicaciones principales de internet  y servicios en red de los sistemas operativos.<br><br>
+                    <b>2.</b> Los puertos del 1024 al 49151 son los puertos del usuario y son asignados a aplicaciones no tan frecuentes.<br><br>
+                    <b>3.</b> Los puertos 49512 al 65535 reciben el nombre de puertos dinámicos y/o privados, son puertos que la IANA no asigna, por lo que necesitamos utilizar un puerto no estándar en la red local para utilizar cada uno de ellos.<br><br>
+                    
+                    Los puertos estándar más usuales se muestran en la siguiente tabla: <br><br>
+                    <img src="Imagenestrans/puertoeynoe.png">
+                    </p>
+            </div>
+
+            <div class="contenido-parrafo2">
+            <h3><span>2</span>Protocolos de la capa de transporte</h3>
+            <video src="Imagenestrans/video1.mp4" poster="Imagenestrans/tcp-udp.png" controls="" style="width: 1000px; height: 600px;"></video><br><br>
+                <p> 
+                Después del video anterior y saber de que va cada uno de los principales protocolos, empezaremos a hablar del protocolo TCP.<br><br>
+
+                <b>TCP (Transmission control protocol)</b><br><br>
+                El protocolo TCP dispone de un formato y unas caracteristicas, y tambien hablaremos de los estados de la conexión TCP<br><br>
+
+                Empezaremos por una breve introducción a las características y continuaremos con sus servicios y consecuencias<br><br>
+                
+                Como ya sabemos, el protocolo TCP se caracteriza por colocar segmentos en orden cuando vienen del protocolo IP. Controla el flujo
+                de los datos y así evita la saturacion de la red, es decir, permite que los datos se formen en segmentos para darselos al protoclo IP.<br><br>
+                    
+                <b>Características principales del modelo TCP</b><br><br>
+
+                En este punto, hablaremos de los servicios que ofrece este protocolo, como trabaja y sus consecuencias.<br><br>
+                
+                    <span><b>1</b></span> ¿Como trabaja este protocolo?<br><br>
+                Trabaja de una manera peculiar, envía datos desde los procesos de un host a otro host, antes de eso TCP ya ha establecido <b>conexión lógica</b> entre ambos
+                para enviar toda la información. Una vez haya acabado ese proceso de comunicación, si ya no se necesita la conexión, se destruye. Estas conexiones son de tipo <b>punto a punto.</b><br><br>
+
+                    <span><b>2</b></span> Servicios que ofrece el protocolo<br><br>
+                Aparte de ser uno de los protocolos más famosos, es el que se utiliza actualmente, de manera que dispone de muchos servicios. En esta guia 
+                solamente nombraremos unos cuantos, al menos los más importantes como pueden ser:<br><br>
+
+                -  Multiplexación de conexiones entre procesos y/o aplicaciones<br>
+                -  Fragmenta los bloques de datos para viajar sobre la capa que se utilice<br>
+                -  Detecta errores de transmisión en los segmentos<br>
+                -  Entrega fiable de los segmentos<br>
+                -  Elimina los segmentos que llegan duplicados<br>
+                -  Controla el flujo y de congestiones para adaptar la velocidad.<br><br>
+
+                Estos son los principales servicios que ofrece este protocolo y es por eso por que destaca
+                tanto y tiene tanta utilidad, pero no todo es positivo, ya que tiene también sus consecuencias.
+              
+                    <br><br>
+                    
+                    <span><b>3</b></span> Consecuencias del protocolo<br><br>
+                Todos los servicios hablados anteriormente como fiabilidad y control de errores en segmentos duplicados son buenos para las redes, sin embargo,
+                esta fiabilidad y la posibilidad de control de flujo y de congestiones tienen un elevado coste a nivel de eficiencia, asi que, comparado con UDP,
+                TCP es un protocolo mucho mas lento. TCP sigue siendo buena opción para aplicaciones que necesiten fiabilidad en la entrega, pero no para aquellas que
+                necesiten comunicarse a tiempo real.<br><br>
+                
+                <b>UDP (User datagram protocol)</b><br><br>
+                UDP es un protocolo mucho mas sencillo que el TCP, ya que este protocolo solo se dedica a la capa de transporte y tiene menos funciones y caracteristicas que el
+                modelo TCP/IP. Al igual que antes, hablaremos de los servicios, sus características principales y sus consecuencias, sin olvidar las aplicaciones en las que se 
+                utiliza este protocolo.<br><br>
+                   
+                Para empezar hay que recordar que en este protocolo UDP, la PDU recibe el nombre de <b>datagrama</b> en lugar de segmento.<br><br>
+               
+                    
+                <span><b>1</b></span> Servicios que ofrece el protocolo<br><br>
+                
+                - Multiplexación de envíos entre procesos y/o aplicaciones por encima de un mismo enlace de red.<br>
+                - Detección de errores en la transmisión entre extremos para cada datagrama.<br><br>
+                
+                <span><b>2</b></span> Características generales del protocolo:<br><br>
+                    
+                - Cada datagrama se envia de forma independiente al resto<br>
+                - UDP no ofrece ningun mecanismo que garantice al remitente que los datagramas han llegado a su destino<br>
+                - No existe ningun mecanismo que evite las congestiones<br>
+                - No existe mecanismo que permita garantizar que los datagramas lleguen en orden<br>
+                - No dispone de ningun mecanismo de fragmentación ni de gestion de fragmentos, sino, que la propia aplicación debe dividir su información.<br><br>
+                    
+                <span><b>3</b></span> Consecuencias del protocolo:<br><br>
+                
+                Debido a su extrema sencillez, este protocolo permite elevadas velocidades de transferencia, pero sin garantia. Es muy útil para aplicaciones que necesitan funcionar
+                a tiempo real, siempre y cuando se puedan eliminar esos datagramas que no lleguen o no lo hagan a tiempo.<br><br>
+                    
+                Otra consecuencia es que no requiere confirmación de la recepción del datagrama por parte del destinatario, permite broadcast y multicast.<br><br>
+                
+                <span><b>4</b></span> Aplicaciones que utiliza UDP<br><br>
+                    
+                Dispone de 5 aplicaciones en las que funciona este protocolo:<br><br>
+                -  Protocolo DNS <br>
+                -  Protocolo DHCP <br>  
+                -  Protocolos de streaming de voz y video <br>
+                -  Protocolos de difusión y multidifusión de datos <br>
+                -  Algunos juegos online <br>
+                </p>
+                <div class="contenido-parrafo3">
+                <h3><span>3</span>Caso práctico sobre la Monitorización de puertos</h3>
+                <p>
+                    El comando que utilizaremos será <b>netstat -a</b>, tanto para Windows como para Linux.<br>
+                    Este comando muestra estadísticas del protocolo y conexiones TCP/IP actuales.<br><br>
+                    <img src="Imagenestrans/practica1.png"><br>
+                    Si añadimos al comando anterior <b>-n</b> se mostraran direcciones y números de puerto en formato numérico:<br><br>
+                    <img src="Imagenestrans/practica2.png"><br>
+                </p>
+                <h3><span>4</span>Caso práctico sobre conexiones abiertas en un host remoto</h3>
+                <p>
+                    El comando más utilizado para el descubrimiento de puertos abiertos en un host remoto es el comando <b>nmap</b> que puede ser utilizado
+                    tanto en Linux como para Windows.<br><br>
+                    <img src="Imagenestrans/nmap.png">
+                </p>
+                <h3><span>5</span> Formato de la PDU</h3>
+                <video src="Imagenestrans/FormatoPDU.mp4" controls="" style="width: 1000px; height: 600px;"></video>
+                <p><b>Video realizado por Adam Kempes</b></p>
+                    
+            </div>
+        
+        </div>
+
+    </section>
+    <footer>
+        <h2 class="titulo-final">&copy; Sergio Fernández Design | NetCo Company</h2>
+    </footer>
+    </html>

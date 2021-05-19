@@ -246,11 +246,9 @@ h2.titulo {
 /* TABLAS */
 
 .tablas ul{
-    box-shadow: 0 0 3 0 rgba( 0, 0, 0, .5);
     display: flex;
     justify-content: center;
     font-weight: 400;
-    border-radius: 5%;
     margin: 10px;
 
 }
@@ -269,7 +267,6 @@ h2.titulo {
     font-weight: 400;
     font-size: 18px;
     margin: 5px;
-    background-color: #ffffff;
     text-decoration: none;
     border-radius: 10%;
     align-items: center;

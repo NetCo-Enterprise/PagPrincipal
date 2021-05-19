@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Imagenes/logoredes.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos-aplicacion.css">
+    <link rel="stylesheet" href="css/estilos-apliacion.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
-    <title>NetCo</title>
+    <title>NetCo | Reto 4</title>
+
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
@@ -27,107 +26,83 @@
             <a href="index.html">Inicio</a>
             <a href="index.html">Retos</a>
             <a href="servicios.html">Servicios</a>
-            <a href="contactos.html">Contacto</a>
+            <a href="contactos.html">Contactos</a>
         </nav>
         <section class="textos-header">
-            <h1>RETO 4</h1>
+            <h1>Reto 4</h1>
         </section>
-        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.79,1.48 C149.99,150.00 426.91,93.25 501.41,5.44 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
-    </header>
-    <main>
-        <section class="retos">
-            <div class="contenedor">
-                <section class="contenedor sobre-nosotros">
-                    <h2 class="titulo">Capa de Aplicación</h2><br>
-                    <h2 class="subtitulo1"> Esta capa se encargar de proporcionar diversas prestaciones a los ususarios que utilizan la red.<br></h2>
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-6.49,-5.42 C155.47,174.17 338.88,-130.75 503.67,111.02 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+</header>
+
+<main>
+    <section class="contenedor sobre-nosotros">
+        <h2 class="titulo">CAPA DE APLICACIÓN</h2><br>
+        <h2 class="subtitulo1"> 
+            <span>1.</span> Proporciona la interfaz entre las aplicaciones que utilizamos para comunicarnos y la red subyacente en la cual se transmiten los mensajes.<br><br>
+            <span>2.</span> Los protocolos de capa de aplicación se utilizan para intercambiar los datos entre los programas que se ejecutan en los hosts de origen  y destino.</h2>
         
-                    <div class="contenedor-sobre-nosotros">
-                       <div class="contenido-textos">
+        <div class="contenedor-sobre-nosotros">
+            <div class="contenido-textos">
 
-                      <h3> Hay varias cosas importantes que debemos de saber antes de seguir avanzando y que aprenderemos en esta guia, lo más importante son los protocolos UDP y TCP, los principales puertos de la capa, sus principales aplicaciones y características. </h3><br>
+           <h3> Este tema va muy enfocado a los puertos de la capa de aplicación, ya que van destinados al usuario, o al menos asi se planificó al crear el modelo OSI. <br><br>
+                A continuación vamos a hablar de todos los protocolos de esta capa y los mas utilizados, tambien hablaremos en algunos apartados, casos practicos para 
+                aprender de mejor manera. </h3><br>
           
-                      <div class="contenido-parrafo1">
-                          <p> Lorem onstum it septum ca punta lekis itstumna lamseptun </p>
-                           </div>
-                      <div class="contenido-parrafo2">
-                          <p> </p>
-                           </div>
-                   </section>
-                        
-                <div class="tablas">
-                        <section id="tabs">
-                            <ul>
-                              <li><a href="#tabs-1">DNS</a></li>
-                              <li><a href="#tabs-2">DHCP</a></li>
-                              <li><a href="#tabs-3">Telnet</a></li>
-                              <li><a href="#tabs-4">FTP</a></li>
-                              <li><a href="#tabs-5">HTTP</a></li>
-                              <li><a href="#tabs-6">HTTPS</a></li>
-                            </ul>
-                            <div id="tabs-1">
-                              <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
-                            </div>
-                            <div id="tabs-2">
-                              <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-                            </div>
-                            <div id="tabs-3">
-                              <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-                              <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
-                            </div>
-                            <div id="tabs-4">
-                              <p>Lorem ipsum dolor sit amet.</p>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nemo.</p>
-                            </div>
-                            <div id="tabs-5">
-                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                              </div>
-                            <div id="tabs-6">
-                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi.</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla sint officia, quasi velit asperiores et!</p>
-                            </div>
-                            
-                          
+           <div class="contenido-parrafo1">
+            <h3><span>1</span>INTRODUCCIÓN AL TEMARIO</h3>
+                <p>
+                    Primero hablaremos de dos protocolos muy importantes, los demas no profundizaremos, hablaremos del <I>DNS y DCHP</I> en profundidad
+                    ya que son protocolos en los que se puede aplicar la practica y no están tan anticuados como puede ser <I>Telnet o SSH</I><br><br>
+
+                    Una vez explicados los protoclos <I>DHCP y DNS</I> empezaremos con un caso practico como configurar el fichero host en Windows.
 
 
-                    </div>
-                </div>
+                    </p>
             </div>
-        </section>
-        <section class="sobre-servicios">
-            <div class="contenedor">
-                <h2 class="titulo">Nuestras redes sociales</h2>
-                <div class="servicio-cont">
-                    <div class="servicio-ind">
-                        <img src="Imagenes/discord.png" alt="">
-                        <h3>Discord</h3>
-                        <a href = "www.discord.com">Únete a nuestro servidor</a>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="Imagenes/Linkedin.png" alt="">
-                        <h3>LinkedIn</h3>
-                        <a href="www.linkedin.com">Únete a la mejor comunidad</a>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="Imagenes/instagram.png" alt="">
-                        <h3>Instagram</h3>
-                        <a href="www.instagram.com">Entérate de todas nuestras novedades</a>
-                    </div>
-                </div>
+
+            <div class="contenido-parrafo2">
+            <h3><span>2</span>DNS (Domain Name System)</h3>
+                <p> 
+                    
+                </p>
+
             </div>
-        </section>
-    </main>
-    <footer>
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <h4>Email</h4>
-                <p>NetCo.04@gmail.com</p>
-            </div>
-            <div class="content-foo">
-                <h4>Localización</h4>
-                <p>Columbus, Ohio</p>
-            </div>
+        
         </div>
-        <h2 class="titulo-final">&copy; Sergio Fernández Design | NetCo</h2>
+        </div>
+    </section>
+    <div class="tablas">
+        <section id="tabs">
+            <ul>
+              <li><a href="#tabs-1">DNS</a></li>
+              <li><a href="#tabs-2">DHCP</a></li>
+              <li><a href="#tabs-3">Telnet</a></li>
+              <li><a href="#tabs-4">FTP</a></li>
+              <li><a href="#tabs-5">HTTP</a></li>
+              <li><a href="#tabs-6">HTTPS</a></li>
+            </ul>
+            <div id="tabs-1">
+              <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+            </div>
+            <div id="tabs-2">
+              <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+            </div>
+            <div id="tabs-3">
+              <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+              <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            </div>
+            <div id="tabs-4">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nemo.</p>
+            </div>
+            <div id="tabs-5">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              </div>
+            <div id="tabs-6">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla sint officia, quasi velit asperiores et!</p>
+            </div>
+    <footer>
+        <h2 class="titulo-final">&copy; Sergio Fernández Design | NetCo Company</h2>
     </footer>
-</body>
-</html>
+    </html>

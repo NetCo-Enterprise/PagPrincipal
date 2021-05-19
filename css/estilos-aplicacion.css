@@ -252,18 +252,22 @@ h2.titulo {
     font-weight: 400;
     border-radius: 5%;
     margin: 10px;
-    background: #b9b9b98a
+
 }
 
 .tablas {
-    width: auto;
-    height: auto;
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
 }
 
 .tablas ul > li{
     display: flex;
     justify-content: left;
     font-weight: 400;
+    font-size: 18px;
     margin: 5px;
     background-color: #ffffff;
     text-decoration: none;
@@ -274,9 +278,7 @@ h2.titulo {
 .tablas ul li a {
     display: flex;
     font-weight: 600;
+    font-size: 25px;
     margin: 2px; 
     text-decoration: none;
-    transition: transform 0.5;
-    transform:scale(1);
 }
-

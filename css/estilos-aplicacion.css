@@ -16,25 +16,33 @@ body{
     overflow: hidden;
 }
 
+.titulo{
+    color: #360b85;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
 header{
     width: 100%;
-    height:;
-    background: #f12711;  
+    height: 600px;
+    background: #048af8;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(120, 92%, 53%, 0.212), #24da00a2), url(../Imagenestrans/portadatrans1.jpg);  
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.397), #5c0dc4), url(../Imagenes/portada.jpg);  
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(120, 92%, 53%, 0.26), #24da00ab), url(../Imagenestrans/portadatrans1.jpg); 
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.397), #5c0dc4), url(../Imagenes/portada.jpg); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
     background-attachment: fixed;
 }
-
 .wave {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
-nav{
+nav {
     text-align: right;
     padding: 30px 50px 0 0;
 }
@@ -60,11 +68,6 @@ header .textos-header {
     text-align: center;
 }
 
-.titulo{
-    text-align: center;
-    font-weight: 600;
-    font-size: 70px;
-}
 .textos-header h1{
     font-size: 80px;
     color:#fff;
@@ -76,111 +79,124 @@ header .textos-header {
     color:#fff;
 }
 
-/* TITULOS */
+/* sobre nosotros */
 
 .contenedor-sobre-nosotros {
     display: flex;
+    justify-content: space-evenly;
 }
 
-h2.subtitulo1{
-    color: #000000;
-    font-size: 27px;
-    text-align: center;
-    text-align: justify;
-    margin-bottom: 35px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.788);
-    background: hsla(120, 77%, 31%, 0.541);
-   
-    text-align: center;
-    text-align: justify;
+.imagen-sobre-nosotros {
+    width: 48%;
 }
-
-h2.titulo {
-    background: hsl(120, 51%, 54%);
-    box-shadow: 0 0 15px 0 rgb(0, 0, 0);
-}
-
-h3.subtitulo2{
-    color: #b4902c;
-    text-align: center;
-    text-align: justify;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-/* CONTENIDO DE LOS PARRAFOS 1*/
 
 .sobre-nosotros .contenido-textos{
-    width: 100%;
+    width: 48%;
 }
 
 .contenido-textos h3{
-    margin-bottom: 20px;
-    color: #000000;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .contenido-textos h3 span{
-    background: #24da00ab;
-    color: rgb(0, 0, 0);
+    background: #4d0686;
+    color: #fff;
     border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    padding: 2px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    margin-right: 10px;
-}
-
-.contenido-textos p{
-    font-weight: 700;
-    margin-bottom: 25px;
-    font-size: 20px;
-}
-
-/* CONTENIDO DEL PARRAFO 1*/
-
-.contenido-parrafo1 {
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.contenido-parrafo1 p {
-    font-weight: 300;
-    font-size: 20px;
-    text-align: left;
-    text-align: justify;
-}
-
-/* CONTENIDO DEL PARRAFO 2*/
-
-.contenido-parrafo2 > video{
-    width: 1000px;
-    height: 600px;
-}
-
-.contenido-parrafo2 p {
-    font-weight: 300;
-    font-size: 20px;
-    text-align: justify;
-}
-
-.contenido-parrafo2 p span{
-    background: #1fad02ab;
-    color: rgb(0, 0, 0);
-    border-radius: 0%;
     display: inline-block;
     text-align: center;
     width: 30px;
     height: 30px;
-    padding: 1px;
-    margin-right: 10px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
 }
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* galeria */
+
+.retos {
+    background: #f2f2f2
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tablas ul{
+    box-shadow: 0 0 3 0 rgba( 0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 5%;
+    margin: 10px;
+    background: #b9b9b98a
+}
+
+/* TABLAS */
+
+.tablas ul > li{
+    display: flex;
+    justify-content: left;
+    font-weight: 400;
+    margin: 5px;
+    background-color: #9c9797;
+    text-decoration: none;
+    border-radius: 10%;
+    align-items: center;
+}
+
+.tablas ul li a {
+    display: flex;
+    font-weight: 600;
+    margin: 7px;
+    color: black;  
+    text-decoration: none;
+    transition: transform 0.5;
+    transform:scale(1);
+}
+
+
+.imagen-retos > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.contenedor .titulo h2 {
+    margin-bottom: auto;
+}
+
+/* Pie de página */
+
+.contenedor-footer {
+    background-color: rgb(204, 203, 203);
+    text-align: center;
+    margin: 2px;
+    justify-content: center;
+    display: flex;
+}
+
+.content-foo {
+    margin: 7px;
+    text-align: center;
+}
+
 .titulo-final{
     background-color: rgb(186, 187, 186);
     text-align: center;
     font-weight: 600;
+}
+
+.servicio-ind > img{
+    float: right;
+   margin: 0 0 15 15;
+   width: 16%;
 }

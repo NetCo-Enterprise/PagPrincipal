@@ -279,3 +279,9 @@ h2.titulo {
     margin: 2px; 
     text-decoration: none;
 }
+
+/* MAIN 2 */
+
+.main2 main {
+    background: #f2f2f2;
+}

@@ -155,8 +155,7 @@ header .textos-header {
 .tablas ul li a {
     display: flex;
     font-weight: 600;
-    margin: 7px;
-    color: black;  
+    margin: 2px; 
     text-decoration: none;
     transition: transform 0.5;
     transform:scale(1);

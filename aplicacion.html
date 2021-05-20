@@ -94,18 +94,30 @@
                 <img src="Imagenes-aplicacion/Practica2Telnet.png" style="display: flex; width: 1000px; height: 150px;">
               </p>
             </div>
-            <div id="tabs-2">
+           <div id="tabs-2">
               <p>
-
-
-
+                <I>SHH (Secure shell)</I> es otro protocolo que hace lo mismo que telnet con la diferencia que introduce la gran mejora de que todo el intercambio de datos entre
+                los dos ordenadores sea cifrado. Y al igual que <I>Telnet</I> lo hace por consola.<br><br>
+                Todos los datos que se envian se tranfieren a 128 bits, entonces son muy dificiles de descrifrar y leer.<br><br>
+                <b>Accediendo remotamente mediante un cliente SSH</b><br>
+                Hay unos programas especiales que envian información cifrada entre las maquinas conectadas, un programa muy utilizado en esto es
+                <b><I>PuTTY.</I></b><br><br>
+                <img src="Imagenes-aplicacion/PuTTY.png" style="display: flex; width: 900px; height: 600px;">
               </p>
             </div>
             <div id="tabs-3">
               <p> 
+                <I>FTP</I> es un protocolo cliente-servidor que implementa el modo en el que se transfieren los archivos entre maquinas remotas.<br><br>
+                Este protocolo funciona de la siguente manera. Los clientes FTP que solicitan la conexion, deben proporcionar su nombre de usuario y contraseña,
+                entonces el servidor FTP les proporcionará acceso a unas carpetas con permisos determinados cada una de ellas.<br><br>
 
-
-
+                Este protocolo  utiliza dos conexiones TCP pararelas:<br><br>
+                <b> - Conexión de control: </b> utiliza el puerto 21.<br>
+                <b> - Conexión de datos: </b> utiliza el puerto 20.<br><br>
+                Tambien FTP utiliza dos tipos de envío de ficheros:<br><br>
+                <b> - ASCCI: </b> para enviar ficheros con caracteres imprimibles. <br>
+                <b> - Binario:</b> para enviar archivos ejecutables, imagenes, y cualquier cosa que no contenga texto plano <br><br>
+                <img src="Imagenes-aplicacion/ImagenFTP.png" style="display: flex; width: 900px; height: 500px;">
               </p>
             </div>
             <div id="tabs-4">
@@ -159,13 +171,10 @@
                <div class="contenido-parrafo1">
                 <h3><span>1</span>CASO PRACTICO DEL FICHERO HOST</h3>
                     <p>
-                        Primero hablaremos de dos protocolos muy importantes, los demas no profundizaremos, hablaremos del <I>DNS y DCHP</I> en profundidad
-                        ya que son protocolos en los que se puede aplicar la practica y no están tan anticuados como puede ser <I>Telnet o SSH</I><br><br>
-    
-                        Una vez explicados los protoclos <I>DHCP y DNS</I> empezaremos con un caso practico como configurar el fichero host en Windows.
-    
-    
-                        </p>
+                        En los sistemas Windows y Linux exite un fichero que realiza las funciones del DNS local. Este es extremadamente útil si se quiere asignar nombres a los dispositivos de una red local para no tener
+                        que acceder a ellos mediante su dirección IP, aqui he dejado un video hecho por Sergio Fernandez donde explica como se configura:<br><br>
+                        <video src="Imagenes-aplicacion/" poster="Imagenes-aplicacion/" controls style="height: 500px; width: 1000px;"></video>
+                    </p>
                 </div>
                 </div>
             </div>

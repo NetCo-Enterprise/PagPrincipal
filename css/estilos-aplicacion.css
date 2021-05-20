@@ -177,7 +177,7 @@ h2.titulo {
     font-size: 20px;
 }
 
-/* CONTENIDO DEL PARRAFO 1*/
+/* CONTENIDO DEL PARRAFO 1 */
 
 .contenido-parrafo1 {
     font-weight: 700;
@@ -186,34 +186,21 @@ h2.titulo {
 
 .contenido-parrafo1 p {
     font-weight: 300;
-    font-size: 25px;
+    font-size: 23px;
     text-align: justify;
 }
 
+/* CONTENIDO DEL PARRAFO 2 */
 
-/* galeria */
-
-.retos {
-    background: #f2f2f2
+.contenido-parrafo2 {
+    font-weight: 700;
+    font-size: 20px;
 }
 
-.galeria {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-
-
-.imagen-retos > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.contenedor .titulo h2 {
-    margin-bottom: auto;
+.contenido-parrafo2 p {
+    font-weight: 300;
+    font-size: 23px;
+    text-align: justify;
 }
 
 /* Pie de página */

@@ -86,10 +86,6 @@ header .textos-header {
     justify-content: space-evenly;
 }
 
-.imagen-sobre-nosotros {
-    width: 48%;
-}
-
 .sobre-nosotros .contenido-textos{
     width: 48%;
 }
@@ -175,6 +171,12 @@ h2.titulo {
     font-weight: 700;
     margin-bottom: 25px;
     font-size: 20px;
+}
+
+h3.subtitulo {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
 }
 
 /* CONTENIDO DEL PARRAFO 1 */

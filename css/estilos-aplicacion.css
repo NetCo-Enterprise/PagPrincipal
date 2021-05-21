@@ -92,8 +92,6 @@ header .textos-header {
 
 .contenido-textos h3{
     margin-bottom: 15px;
-    font-size: 300;
-    font-weight: 23px;
 }
 
 .contenido-textos h3 span{
@@ -151,8 +149,8 @@ h2.titulo {
     color: #000000;
     text-align: justify;
     padding: 15px;
-    font-size: 27px;
-    font-weight: 700;
+    font-size: 23px;
+    font-weight: 300;
 }
 
 .contenido-textos h3 span{

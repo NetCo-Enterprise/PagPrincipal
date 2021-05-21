@@ -1,6 +1,6 @@
-# PagPrincipal
+# NetCo Company y sus diseñadores
 Somos Sergio Fernandez y Sergio encinas como desarrolladores de la página web, el diseño de las páginas es de Sergio Fernández y el código escrito también.
-Sergio Encinas editaba código HTML y revisaba el código para que no hubiera ningún error.
+Sergio Encinas editaba código HTML y revisaba el código para que no hubiera ningún error. Era un proyecto para clases de grado medio en redes locales.
 
 # Librerias utilizadas
 Tanto en el index.html y en apliacion.html tenemos librerias de Jquery para que produzca "scroll" en el index y un sistema de tablas con sus puertos en apliación.

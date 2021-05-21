@@ -191,6 +191,10 @@ h3.subtitulo {
     text-align: justify;
 }
 
+.contenido-parrafo1 h3 {
+    font-weight: 600;   
+}
+
 /* CONTENIDO DEL PARRAFO 2 */
 
 .contenido-parrafo2 {

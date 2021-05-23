@@ -237,12 +237,17 @@ h3.subtitulo {
 
 /* TABLAS */
 
+.tabs {
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .tablas ul{
     display: flex;
     justify-content: center;
     font-weight: 400;
     margin: 10px;
-    background: #fff;
+
 }
 
 .tablas {
@@ -251,6 +256,7 @@ h3.subtitulo {
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
+    font-size: 22px
 }
 
 .tablas ul > li{
@@ -264,6 +270,19 @@ h3.subtitulo {
     align-items: center;
 }
 
+.tablas span {
+    background: #ff8800da;
+    color: rgb(255, 115, 0);
+    border-radius: 0%;
+    display: inline-block;
+    text-align: center;
+    width: 10px;
+    height: 25px;
+    padding: 0px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+    margin-right: 5px;
+}
+
 .tablas ul li a {
     display: flex;
     font-weight: 600;
@@ -271,6 +290,12 @@ h3.subtitulo {
     margin: 2px; 
     text-decoration: none;
 }
+
+.tablas .tabs-1  p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
 
 /* MAIN 2 */
 

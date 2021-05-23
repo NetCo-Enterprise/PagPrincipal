@@ -35,39 +35,6 @@
 </header>
 
 <main>
-    <section class="contenedor sobre-nosotros">
-        <h2 class="titulo">CAPA DE APLICACIÓN</h2><br>
-        <h2 class="subtitulo1"> 
-            <span>1.</span> Proporciona la interfaz entre las aplicaciones que utilizamos para comunicarnos y la red subyacente en la cual se transmiten los mensajes.<br><br>
-            <span>2.</span> Los protocolos de capa de aplicación se utilizan para intercambiar los datos entre los programas que se ejecutan en los hosts de origen y destino.</h2>
-        
-        <div class="contenedor-sobre-nosotros">
-            <div class="contenido-textos">
-
-           <h3> Vamos a hablar de todos los protocolos de esta capa y los más utilizados, al final hemos implementado un caso práctico sobre 
-                como configurar el fichero host en Windows.. </h3><br>
-          
-           <div class="contenido-parrafo1">
-               <h3><span><b>1</b></span><b>Introducción al temario</b></h3>
-                <p>
-                    Principalmente profundizaremos en dos protocolos muy importantes, el <I><b>DHCP y el DNS</I></b> ya que son protocolos en los que se puede aplicar la práctica y no están tan obsoletos como pueden ser <b><I>Telnet o SSH</I></b><br><br>
-                    Una vez explicados estos dos, haremos una breve descripción de todos los demás.
-
-                    </p>
-            </div>
-
-            <div class="contenido-parrafo2">
-                <h3><span><b>2</b></span><b>DHCP (Dynamic Host Configuration Protocol)</b></h3>
-                <p> 
-                    
-                </p>
-
-            </div>
-        
-        </div>
-        </div>
-    </section>
-    <div class="tablas">
         <section id="tabs">
             <ul>
                 <li><a href="#tabs-1">Telnet</a></li>
@@ -115,20 +82,31 @@
             </div>
             <div id="tabs-4">
               <p>
-                 <video src="Imagenes-aplicacion/http-https.mp4" poster="Imagenes-aplicacion/http-https.jpg" controls style="height: 600px; width: 1000px;" ></video>
-
-
+                <video src="Imagenes-aplicacion/http-https.mp4" poster="Imagenes-aplicacion/http-https.jpg" controls style="height: 600px; width: 1000px;" ></video>
+                <b>Video realizado por Sergio Fernández</b>
               </p>
             </div>
             <div id="tabs-5">
               <p>
                 Los siguientes protocolos de los que vamos a hablar  se utilizan en el correo electronico, la primera apliacion que se utilizó para comprobar el
                 funcionamiento de la red que mas tarde se convertiría en internet. Para ello se definieron 3 protocolos importantes para el funcionamiento del correo
-                electronico.
-                  
-                
+                electronico:<br><br>
 
+                <b><span></span> SMTP (Simple mail transfer protocol) </b><br><br>
+                Este protocolo que implementa cómo debe ser la transferencia de un mensaje de correo electrónico entre un remitente y un destinatario. SMPT no
+                necesita servidores intermedios, es decir, los servidores de correo electrónico establecen una conexión directa entre sí y envñian los mensajes programados.<br><br>
 
+                <b><span></span> POP3</b><br><br>
+                POP3 es el protocolo que implementa la funcionalidad de recibir los mensajes del servidor de correo electronico implementado en la red. Las 
+                apliaciones que utilizan POP3 eliminan los mensajes del servidor de correo cuando los recuperan para el ordenador local.<br><br>
+
+                <b><span></span> IMAP </b><br><br>
+                IMAP es el protocolo que permite acceder a los mensajes de correo electrónico alojados en un servidor a través de internet. Actualmente
+                IMAP se ha convertido en el mejor protocolo para consultar el correo a través de un navegador web. Las ventajas son claras:<br><br>
+                - No necesitas apliaciones para ver el correo.<br>
+                - Los mensajes no ocupan espacio en el disco duro<br>
+                - Los mensajes no se borran del servidor de correo hasta que lo determine el usuario.<br><br>
+                <img src="Imagenes-aplicacion/smptpop3imap.png" style="width: 1000px; height: 600px;" alt="">
               </p>
         </section>
     </div>

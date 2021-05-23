@@ -30,13 +30,14 @@ header{
     height: 600px;
     background: #048af8;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.397), #5c0dc4), url(../Imagenes-aplicacion/portadaredes.jpg);  
+    background: -webkit-linear-gradient(to right, hsl(0deg 40% 12% / 40%), #220942), url(../Imagenes-aplicacion/portadaredes.jpg);  
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.397), #5c0dc4), url(../Imagenes-aplicacion/portadaredes.jpg); 
+    background: linear-gradient(to right, hsl(247deg 100% 50% / 57%), #da8304eb), url(../Imagenes-aplicacion/portadaredes.jpg); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
     background-attachment: fixed;
 }
+
 .wave {
     position: absolute;
     bottom: 0;

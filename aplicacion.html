@@ -59,6 +59,19 @@
             <div class="contenido-parrafo2">
                 <h3><span><b>2</b></span><b>DHCP (Dynamic Host Configuration Protocol)</b></h3>
                 <p> 
+                    DHCP es un servicio proporcioando en una red local. Es un protocolo cliente-srvidor, que permite asignar los parámetros de configuración IP a todos los ordenadores de una red local de forma dinámica.
+                    Los parámetros engloban la dirección IP, la máscara de subred, los servicios DNS, la dirección de la puerta de enlace predeterminada y otros parámetros.
+                    Al ordenador que ofrece el servicio se le denomina <b> servidor DHCP </b>. EL hecho de configurarlo desde el incio facilita la movilidad de los dispositivos , ya que es mas sencillo transportar equipos de una red a otra.<br><br>
+                   
+                    El funcionamiento del servicio DHCP, sigue 4 pasos:<br><br>
+                    - AL arrsncar el ordenador, lo primero que va a hacer es enviar un paquete de difusión <i> DCHP discovery </i> para ver si existe un servidor<br><br>
+                    - El servidor entiende y prepara un paquete <i> DHCP offer </i> con destino a la MAC del cliente<br><br>
+                    - Cabría la posibilidad de que existiesen varios servidores DHCP en una msima red y, como el paquete <i> DHCP discovery </i> se ha enviado en <i> broadcast </i>, n mismo cliente podría recibir al mismo tiempo varios ofrecimientos con direcciones IP diferentes .<br><br>
+                    - El servidor responde con un paquete <i> DHCP acknowledgement </i> donde se le especifica al cliente cualquier otra configuración que haya solicitado: dirección DNS, dirección de la pasarela...<br><br>
+                    
+                    Los DHCP incorporan dos formas de asignar direcciones IP:<br><br>
+                    - <b> Estática: </b> A una dirección MAC predeterminada se le asigna siempre la misma dirección IP. Se pueden reservar tantas direcciones MAC como se quiera.<br><br>
+                    -<b> Dinámicas: </b> Las direcciones IP se asignan en funicón del orden de encendido de los ordenadores en una red local. Además la dirección asignada caduca en un plazo de tiempo determinado por el administrador.<br>
                     
                 </p>
 
@@ -67,6 +80,16 @@
             <div class="contenido-parrafo2">
               <h3><span><b>3</b></span><b>DNS (Domain Name System)</b></h3>
               <p> 
+                  DNS es un servicio de red que consiste en una base de datos que asocia direcciones IP con nombres de dominio, son más fáciles de utilizar y recordar.
+                  Esta base de datos es distribuida, en muchos servidores distintos, de este modo se evitan las caídas, y se descongestiona el volumen de tráfico.
+                  Esto lo que hace es que los servidores DNS que contienen las bases de datos interactuén entre sí intercambiándose información. Estos servidores hacen uso de sistemas de <b> caché DNS </b>, y se clasifican en:<br><br>
+                  - <b> Servidor local de nombres: </b> cada ISP tiene un servidor local de nombres. Un ordenador envía una solicitud DNS, el servidor local la recoge y comprueba si al tiene en su base de datos. Si no realiza una petición DNS a un servidpr raíz de nombres.<br>
+                  - <b> Servidor raíz de nombres: </b> son servidores con una base de datos DNS más amplia y localizados en grandes compañias. Cuando el servidor local ha hecho una petición al servidor raíz , este respnde. Si no realiza una peticón a u servidor autorizado de nombres.<br>
+                  - <b> Servidor autorizado de nombres: </b> cualquier dominio de Internet debe registrarse rellenando unos formularios. Los servidores contienen la base de datos correspondiente al nombre registradocon la IP asignada. La consulta realizada por el servidor raíz podrá ser enviada al servidor local para que informe correctamente al host que inició la transacción.<br><br>
+                  
+                  Los nombres de dominio se organizan en un sistema de nomenclatura establecido de forma jerárquica:<br><br>
+                  - <b> Dominios de tipo genérico y de país: </b> Algunos dominios genéricos son: com(comerciales), edu(educativos), net(proveedores de red), org(organizaciones sin ánimo de lucro)<br>
+                  - <b> Dominio propiamente dicho: </b> ejemplo: www.nombredetuempresa.com<br>
                   
               </p>
             </div>

@@ -174,3 +174,21 @@ h3.subtitulo1{
     font-size: 20px;
     font-weight: 400;
 }
+
+.contenido-main2 {
+    font-weight: 300;
+    font-size: 23px;
+
+}
+
+.contenido-main2 p {
+    font-weight: 300;
+    font-size: 23px;
+    text-align: left;
+    text-align: justify;
+}
+
+.contenido-main2 h2 {
+    font-weight: 600;
+    font-size: 26px;
+}

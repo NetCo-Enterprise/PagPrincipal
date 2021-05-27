@@ -178,5 +178,8 @@ h3.subtitulo1{
 .contenido-main2 {
     font-weight: 300;
     font-size: 23px;
+}
 
+.contenido-main2 h2 {
+    font-size: 25px;
 }

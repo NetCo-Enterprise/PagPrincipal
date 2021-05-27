@@ -46,7 +46,7 @@
               <div class="contenido-main2">
                 <h2><span>1</span>Para empezar, realizamos el cálculo para el departamento de Administración:</h2><br>
                 <p>
-                    Analizamos la clase, en este caso es clase C.<br>
+                    Analizamos la clase de la IP 192.168.10.0/24, en este caso es Clase C.<br>
                     A continuación realizamos la máscara inicial: 255.255.255.0<br><br>
                     
                     <b>2^n - 2 >= 20 = 5 bits para host y 3 para subred.</b> Por lo tanto la nueva máscara es: <b>255.255.255.224</b><br>
@@ -65,11 +65,11 @@
                 </p>
                  <h2><span>3</span>Realizamos el cálculo para el departamento de ventas:</h2><br>
                 <p>
-                    Analizamos la clase, en este caso es clase C.<br>
+                    Analizamos la clase de la IP 192.175.30.0, en este caso es Clase C.<br>
                     A continuación realizamos la máscara inicial: 255.255.255.0<br><br>
                     
                     <b>2^n - 2 >= 20 = 4 bits para subred.</b> Entonces la nueva máscara es: <b>255.255.255.240</b><br>
-                    Esta es la tabla de la primera subred, la IP para DHCP y las demás IPs reservadas:<br><br>
+                    Esta es la tabla de la primera y de la última subred, también indicamos la IP reservada para DHCP:<br><br>
                          <img src="Imagenes-reto5/tablasubred2.png" alt=""><br> <br>
                 
                 <h2><span>4</span>Ahora configuramos la red en Packet Tracer tanto en el AccessPoint inalámbrico como en los Laptops también, lo haremos de forma inalámbrica:</h2><br><br>

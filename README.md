@@ -1,5 +1,5 @@
 # NetCo Company y sus diseñadores
-Somos Sergio Fernandez y Sergio encinas como desarrolladores de la página web, el diseño de las páginas es de Sergio Fernández y el código escrito también.
+Somos Sergio Fernandez y Sergio Encinas como desarrolladores de la página web, el diseño de las páginas es de Sergio Fernández y el código escrito también.
 Sergio Encinas se encargaba de editar y revisar el código para corregir errores que pudieran existir. Fue un proyecto para la clase de SMIR de 1er año de grado medio en redes locales.
 
 # Librerias utilizadas
